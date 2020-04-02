@@ -34,18 +34,17 @@
                 Click="btnPulsante_Click" Height="52" Width="204"/>
         <Label x:Name="lblEtichetta" 
                Content="Etichetta" 
-               HorizontalAlignment="Left" 
+               HorizontalAlignment="Center" 
               
-               Margin="75,0,0,0" 
-               VerticalAlignment="Center" 
+               Margin="0,98,0,0" 
+               VerticalAlignment="Top" 
                RenderTransformOrigin="-7.554,-0.514" 
                FontFamily="Arial Black" 
                FontSize="14" 
                FontStyle="Italic" 
                Foreground="#FF0009FF" 
                FontWeight="Normal" 
-               Grid.Row="1"
-               Grid.Column="0"/>
+               Grid.Row="1"/>
         <TextBox x:Name="txtTesto"
                  HorizontalAlignment="Left" 
                  Text="Inserire un testo" 
